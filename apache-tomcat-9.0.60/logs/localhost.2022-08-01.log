@@ -1,0 +1,2765 @@
+01-Aug-2022 15:26:58.575 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Aug-2022 15:26:58.575 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Aug-2022 15:26:58.578 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7383eae2')
+01-Aug-2022 15:28:03.490 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [134] in the jsp file: [/process.jsp]
+Duplicate local variable value
+131:               
+132: 
+133:               <select name="news" id="id8" style="width:200px">
+134:                 <% String value=st3[1]; %>
+135:                 <% if (value=="Fake")
+136:               { 
+137:                 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+Syntax error, insert ">" to complete ReferenceType1
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+Syntax error, insert "super ( ) ;" to complete BlockStatements
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+option cannot be resolved to a type
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+Constructor call must be the first statement in a constructor
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+Fake cannot be resolved to a variable
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+Syntax error on token "/", delete this token
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+option cannot be resolved to a variable
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+Syntax error on token "<", @ expected
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+Syntax error, type annotations are illegal here
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+Syntax error on token "=", <= expected
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+Real cannot be resolved to a variable
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+Syntax error on token "/", delete this token
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+option cannot be resolved to a variable
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [142] in the jsp file: [/process.jsp]
+Syntax error on tokens, delete these tokens
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+145: 
+
+
+An error occurred at line: [165] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+162:             {
+163:               i++;
+164:               
+165:               String[] st3= st.nextToken().toString().split(":");
+166:               
+167:             %>
+168:               <% if (i==4)
+
+
+An error occurred at line: [190] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+187:             {
+188:               i++;
+189:               
+190:               String[] st3= st.nextToken().toString().split(":");
+191:               
+192:             %>
+193:               <% if (i==6)
+
+
+An error occurred at line: [215] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+212:            {
+213:              i++;
+214:              
+215:              String[] st3= st.nextToken().toString().split(":");
+216:              
+217:            %>
+218:              <% if (i==7)
+
+
+An error occurred at line: [241] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+238:           {
+239:             i++;
+240:             
+241:             String[] st3= st.nextToken().toString().split(":");
+242:             
+243:           %>
+244:             <% if (i==8)
+
+
+An error occurred at line: [266] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+263:          {
+264:            i++;
+265:            
+266:            String[] st3= st.nextToken().toString().split(":");
+267:            
+268:          %>
+269:            <% if (i==2)
+
+
+An error occurred at line: [292] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+289:         {
+290:           i++;
+291:           
+292:           String[] st3= st.nextToken().toString().split(":");
+293:           
+294:         %>
+295:           <% if (i==1)
+
+
+An error occurred at line: [563] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [134] in the jsp file: [/process.jsp]
+Duplicate local variable value
+131:               
+132: 
+133:               <select name="news" id="id8" style="width:200px">
+134:                 <% String value=st3[1]; %>
+135:                 <% if (value=="Fake")
+136:               { 
+137:                 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+Syntax error, insert ">" to complete ReferenceType1
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+Syntax error, insert "super ( ) ;" to complete BlockStatements
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+option cannot be resolved to a type
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+Constructor call must be the first statement in a constructor
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+Fake cannot be resolved to a variable
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+Syntax error on token "/", delete this token
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [139] in the jsp file: [/process.jsp]
+option cannot be resolved to a variable
+136:               { 
+137:                 
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+Syntax error on token "<", @ expected
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+Syntax error, type annotations are illegal here
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+Syntax error on token "=", <= expected
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+Real cannot be resolved to a variable
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+Syntax error on token "/", delete this token
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [141] in the jsp file: [/process.jsp]
+option cannot be resolved to a variable
+138: 
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+
+
+An error occurred at line: [142] in the jsp file: [/process.jsp]
+Syntax error on tokens, delete these tokens
+139:                 <option value="volvo">Fake</option>
+140:                 
+141:                 <option value="saab">Real</option>
+142:                 <% } %> 
+143:                 </select>
+144:               
+145: 
+
+
+An error occurred at line: [165] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+162:             {
+163:               i++;
+164:               
+165:               String[] st3= st.nextToken().toString().split(":");
+166:               
+167:             %>
+168:               <% if (i==4)
+
+
+An error occurred at line: [190] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+187:             {
+188:               i++;
+189:               
+190:               String[] st3= st.nextToken().toString().split(":");
+191:               
+192:             %>
+193:               <% if (i==6)
+
+
+An error occurred at line: [215] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+212:            {
+213:              i++;
+214:              
+215:              String[] st3= st.nextToken().toString().split(":");
+216:              
+217:            %>
+218:              <% if (i==7)
+
+
+An error occurred at line: [241] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+238:           {
+239:             i++;
+240:             
+241:             String[] st3= st.nextToken().toString().split(":");
+242:             
+243:           %>
+244:             <% if (i==8)
+
+
+An error occurred at line: [266] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+263:          {
+264:            i++;
+265:            
+266:            String[] st3= st.nextToken().toString().split(":");
+267:            
+268:          %>
+269:            <% if (i==2)
+
+
+An error occurred at line: [292] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+289:         {
+290:           i++;
+291:           
+292:           String[] st3= st.nextToken().toString().split(":");
+293:           
+294:         %>
+295:           <% if (i==1)
+
+
+An error occurred at line: [563] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+01-Aug-2022 15:31:29.251 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ".", @ expected after this token
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", @ expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", @ expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", @ expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", @ expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", @ expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", Identifier expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [189] in the jsp file: [/process.jsp]
+Syntax error on token ";", { expected after this token
+186: 
+187: 
+188:             <%
+189:              st = new StringTokenizer(json2,",");
+190:              i = 0;
+191: 
+192:             while (st.hasMoreTokens())
+
+
+An error occurred at line: [194] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+191: 
+192:             while (st.hasMoreTokens())
+193:             {
+194:               i++;
+195:               
+196:               String[] st3= st.nextToken().toString().split(":");
+197:               
+
+
+An error occurred at line: [196] in the jsp file: [/process.jsp]
+st cannot be resolved
+193:             {
+194:               i++;
+195:               
+196:               String[] st3= st.nextToken().toString().split(":");
+197:               
+198:             %>
+199:               <% if (i==4)
+
+
+An error occurred at line: [198] in the jsp file: [/process.jsp]
+out cannot be resolved
+195:               
+196:               String[] st3= st.nextToken().toString().split(":");
+197:               
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+
+
+An error occurred at line: [198] in the jsp file: [/process.jsp]
+out cannot be resolved
+195:               
+196:               String[] st3= st.nextToken().toString().split(":");
+197:               
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+
+
+An error occurred at line: [199] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+196:               String[] st3= st.nextToken().toString().split(":");
+197:               
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+202:             <td>
+
+
+An error occurred at line: [201] in the jsp file: [/process.jsp]
+out cannot be resolved
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+
+
+An error occurred at line: [201] in the jsp file: [/process.jsp]
+out cannot be resolved
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+
+
+An error occurred at line: [201] in the jsp file: [/process.jsp]
+out cannot be resolved
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+
+
+An error occurred at line: [203] in the jsp file: [/process.jsp]
+out cannot be resolved
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+205:               <% 
+206:             break;
+
+
+An error occurred at line: [203] in the jsp file: [/process.jsp]
+out cannot be resolved
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+205:               <% 
+206:             break;
+
+
+An error occurred at line: [203] in the jsp file: [/process.jsp]
+out cannot be resolved
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+205:               <% 
+206:             break;
+
+
+An error occurred at line: [203] in the jsp file: [/process.jsp]
+out cannot be resolved
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+205:               <% 
+206:             break;
+
+
+An error occurred at line: [207] in the jsp file: [/process.jsp]
+out cannot be resolved
+204:             </td>
+205:               <% 
+206:             break;
+207:           } %>
+208:             <%
+209:             }
+210:             %>
+
+
+An error occurred at line: [207] in the jsp file: [/process.jsp]
+out cannot be resolved
+204:             </td>
+205:               <% 
+206:             break;
+207:           } %>
+208:             <%
+209:             }
+210:             %>
+
+
+An error occurred at line: [219] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+216: 
+217:             while (st.hasMoreTokens())
+218:             {
+219:               i++;
+220:               
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+
+
+An error occurred at line: [221] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+218:             {
+219:               i++;
+220:               
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+223:             %>
+224:               <% if (i==6)
+
+
+An error occurred at line: [221] in the jsp file: [/process.jsp]
+st cannot be resolved
+218:             {
+219:               i++;
+220:               
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+223:             %>
+224:               <% if (i==6)
+
+
+An error occurred at line: [223] in the jsp file: [/process.jsp]
+out cannot be resolved
+220:               
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+
+
+An error occurred at line: [223] in the jsp file: [/process.jsp]
+out cannot be resolved
+220:               
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+
+
+An error occurred at line: [224] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+227:             <td>
+
+
+An error occurred at line: [226] in the jsp file: [/process.jsp]
+out cannot be resolved
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+
+
+An error occurred at line: [226] in the jsp file: [/process.jsp]
+out cannot be resolved
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+
+
+An error occurred at line: [226] in the jsp file: [/process.jsp]
+out cannot be resolved
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+
+
+An error occurred at line: [228] in the jsp file: [/process.jsp]
+out cannot be resolved
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+230:               <% 
+231:             break;
+
+
+An error occurred at line: [228] in the jsp file: [/process.jsp]
+out cannot be resolved
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+230:               <% 
+231:             break;
+
+
+An error occurred at line: [228] in the jsp file: [/process.jsp]
+out cannot be resolved
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+230:               <% 
+231:             break;
+
+
+An error occurred at line: [228] in the jsp file: [/process.jsp]
+out cannot be resolved
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+230:               <% 
+231:             break;
+
+
+An error occurred at line: [232] in the jsp file: [/process.jsp]
+out cannot be resolved
+229:             </td>
+230:               <% 
+231:             break;
+232:           } %>
+233:             <%
+234:             }
+235:             %>
+
+
+An error occurred at line: [232] in the jsp file: [/process.jsp]
+out cannot be resolved
+229:             </td>
+230:               <% 
+231:             break;
+232:           } %>
+233:             <%
+234:             }
+235:             %>
+
+
+An error occurred at line: [244] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+241: 
+242:            while (st.hasMoreTokens())
+243:            {
+244:              i++;
+245:              
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+
+
+An error occurred at line: [246] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+243:            {
+244:              i++;
+245:              
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+248:            %>
+249:              <% if (i==7)
+
+
+An error occurred at line: [246] in the jsp file: [/process.jsp]
+st cannot be resolved
+243:            {
+244:              i++;
+245:              
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+248:            %>
+249:              <% if (i==7)
+
+
+An error occurred at line: [248] in the jsp file: [/process.jsp]
+out cannot be resolved
+245:              
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+
+
+An error occurred at line: [248] in the jsp file: [/process.jsp]
+out cannot be resolved
+245:              
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+
+
+An error occurred at line: [249] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+252:            <td>
+
+
+An error occurred at line: [251] in the jsp file: [/process.jsp]
+out cannot be resolved
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+
+
+An error occurred at line: [251] in the jsp file: [/process.jsp]
+out cannot be resolved
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+
+
+An error occurred at line: [251] in the jsp file: [/process.jsp]
+out cannot be resolved
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+
+
+An error occurred at line: [253] in the jsp file: [/process.jsp]
+out cannot be resolved
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+255:              <% 
+256:            break;
+
+
+An error occurred at line: [253] in the jsp file: [/process.jsp]
+out cannot be resolved
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+255:              <% 
+256:            break;
+
+
+An error occurred at line: [253] in the jsp file: [/process.jsp]
+out cannot be resolved
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+255:              <% 
+256:            break;
+
+
+An error occurred at line: [253] in the jsp file: [/process.jsp]
+out cannot be resolved
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+255:              <% 
+256:            break;
+
+
+An error occurred at line: [257] in the jsp file: [/process.jsp]
+out cannot be resolved
+254:            </td>
+255:              <% 
+256:            break;
+257:          } %>
+258:            <%
+259:            }
+260:            %>
+
+
+An error occurred at line: [257] in the jsp file: [/process.jsp]
+out cannot be resolved
+254:            </td>
+255:              <% 
+256:            break;
+257:          } %>
+258:            <%
+259:            }
+260:            %>
+
+
+An error occurred at line: [270] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+267: 
+268:           while (st.hasMoreTokens())
+269:           {
+270:             i++;
+271:             
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+
+
+An error occurred at line: [272] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+269:           {
+270:             i++;
+271:             
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+274:           %>
+275:             <% if (i==8)
+
+
+An error occurred at line: [272] in the jsp file: [/process.jsp]
+st cannot be resolved
+269:           {
+270:             i++;
+271:             
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+274:           %>
+275:             <% if (i==8)
+
+
+An error occurred at line: [274] in the jsp file: [/process.jsp]
+out cannot be resolved
+271:             
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+
+
+An error occurred at line: [274] in the jsp file: [/process.jsp]
+out cannot be resolved
+271:             
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+
+
+An error occurred at line: [275] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+278:           <td>
+
+
+An error occurred at line: [277] in the jsp file: [/process.jsp]
+out cannot be resolved
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+
+
+An error occurred at line: [277] in the jsp file: [/process.jsp]
+out cannot be resolved
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+
+
+An error occurred at line: [277] in the jsp file: [/process.jsp]
+out cannot be resolved
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+
+
+An error occurred at line: [279] in the jsp file: [/process.jsp]
+out cannot be resolved
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+281:             <% 
+282:           break;
+
+
+An error occurred at line: [279] in the jsp file: [/process.jsp]
+out cannot be resolved
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+281:             <% 
+282:           break;
+
+
+An error occurred at line: [279] in the jsp file: [/process.jsp]
+out cannot be resolved
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+281:             <% 
+282:           break;
+
+
+An error occurred at line: [279] in the jsp file: [/process.jsp]
+out cannot be resolved
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+281:             <% 
+282:           break;
+
+
+An error occurred at line: [283] in the jsp file: [/process.jsp]
+out cannot be resolved
+280:           </td>
+281:             <% 
+282:           break;
+283:         } %>
+284:           <%
+285:           }
+286:           %>
+
+
+An error occurred at line: [283] in the jsp file: [/process.jsp]
+out cannot be resolved
+280:           </td>
+281:             <% 
+282:           break;
+283:         } %>
+284:           <%
+285:           }
+286:           %>
+
+
+An error occurred at line: [295] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+292: 
+293:          while (st.hasMoreTokens())
+294:          {
+295:            i++;
+296:            
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+
+
+An error occurred at line: [297] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+294:          {
+295:            i++;
+296:            
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+299:          %>
+300:            <% if (i==2)
+
+
+An error occurred at line: [297] in the jsp file: [/process.jsp]
+st cannot be resolved
+294:          {
+295:            i++;
+296:            
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+299:          %>
+300:            <% if (i==2)
+
+
+An error occurred at line: [299] in the jsp file: [/process.jsp]
+out cannot be resolved
+296:            
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+
+
+An error occurred at line: [299] in the jsp file: [/process.jsp]
+out cannot be resolved
+296:            
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+
+
+An error occurred at line: [300] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+303:          <td>
+
+
+An error occurred at line: [302] in the jsp file: [/process.jsp]
+out cannot be resolved
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+
+
+An error occurred at line: [302] in the jsp file: [/process.jsp]
+out cannot be resolved
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+
+
+An error occurred at line: [302] in the jsp file: [/process.jsp]
+out cannot be resolved
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+
+
+An error occurred at line: [304] in the jsp file: [/process.jsp]
+out cannot be resolved
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+306:            <% 
+307:          break;
+
+
+An error occurred at line: [304] in the jsp file: [/process.jsp]
+out cannot be resolved
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+306:            <% 
+307:          break;
+
+
+An error occurred at line: [304] in the jsp file: [/process.jsp]
+out cannot be resolved
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+306:            <% 
+307:          break;
+
+
+An error occurred at line: [304] in the jsp file: [/process.jsp]
+out cannot be resolved
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+306:            <% 
+307:          break;
+
+
+An error occurred at line: [308] in the jsp file: [/process.jsp]
+out cannot be resolved
+305:          </td>
+306:            <% 
+307:          break;
+308:        } %>
+309:          <%
+310:          }
+311:          %>
+
+
+An error occurred at line: [308] in the jsp file: [/process.jsp]
+out cannot be resolved
+305:          </td>
+306:            <% 
+307:          break;
+308:        } %>
+309:          <%
+310:          }
+311:          %>
+
+
+An error occurred at line: [321] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+318: 
+319:         while (st.hasMoreTokens())
+320:         {
+321:           i++;
+322:           
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+
+
+An error occurred at line: [323] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+320:         {
+321:           i++;
+322:           
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+325:         %>
+326:           <% if (i==1)
+
+
+An error occurred at line: [323] in the jsp file: [/process.jsp]
+st cannot be resolved
+320:         {
+321:           i++;
+322:           
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+325:         %>
+326:           <% if (i==1)
+
+
+An error occurred at line: [325] in the jsp file: [/process.jsp]
+out cannot be resolved
+322:           
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+
+
+An error occurred at line: [325] in the jsp file: [/process.jsp]
+out cannot be resolved
+322:           
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+
+
+An error occurred at line: [326] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+329:         <td>
+
+
+An error occurred at line: [328] in the jsp file: [/process.jsp]
+out cannot be resolved
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+
+
+An error occurred at line: [328] in the jsp file: [/process.jsp]
+out cannot be resolved
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+
+
+An error occurred at line: [328] in the jsp file: [/process.jsp]
+out cannot be resolved
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+
+
+An error occurred at line: [328] in the jsp file: [/process.jsp]
+out cannot be resolved
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+
+
+An error occurred at line: [331] in the jsp file: [/process.jsp]
+out cannot be resolved
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+332:         </td>
+333:           <% 
+334:         break;
+
+
+An error occurred at line: [331] in the jsp file: [/process.jsp]
+out cannot be resolved
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+332:         </td>
+333:           <% 
+334:         break;
+
+
+An error occurred at line: [331] in the jsp file: [/process.jsp]
+out cannot be resolved
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+332:         </td>
+333:           <% 
+334:         break;
+
+
+An error occurred at line: [331] in the jsp file: [/process.jsp]
+out cannot be resolved
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+332:         </td>
+333:           <% 
+334:         break;
+
+
+An error occurred at line: [335] in the jsp file: [/process.jsp]
+out cannot be resolved
+332:         </td>
+333:           <% 
+334:         break;
+335:       } %>
+336:         <%
+337:         }
+338:         %>
+
+
+An error occurred at line: [335] in the jsp file: [/process.jsp]
+out cannot be resolved
+332:         </td>
+333:           <% 
+334:         break;
+335:       } %>
+336:         <%
+337:         }
+338:         %>
+
+
+An error occurred at line: [604] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [621] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ".", @ expected after this token
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", @ expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", @ expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", @ expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", @ expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", @ expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [183] in the jsp file: [/process.jsp]
+Syntax error on token ";", Identifier expected
+180:           } %>
+181:             <%
+182:             }
+183:             %>
+184: 
+185: 
+186: 
+
+
+An error occurred at line: [189] in the jsp file: [/process.jsp]
+Syntax error on token ";", { expected after this token
+186: 
+187: 
+188:             <%
+189:              st = new StringTokenizer(json2,",");
+190:              i = 0;
+191: 
+192:             while (st.hasMoreTokens())
+
+
+An error occurred at line: [194] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+191: 
+192:             while (st.hasMoreTokens())
+193:             {
+194:               i++;
+195:               
+196:               String[] st3= st.nextToken().toString().split(":");
+197:               
+
+
+An error occurred at line: [196] in the jsp file: [/process.jsp]
+st cannot be resolved
+193:             {
+194:               i++;
+195:               
+196:               String[] st3= st.nextToken().toString().split(":");
+197:               
+198:             %>
+199:               <% if (i==4)
+
+
+An error occurred at line: [198] in the jsp file: [/process.jsp]
+out cannot be resolved
+195:               
+196:               String[] st3= st.nextToken().toString().split(":");
+197:               
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+
+
+An error occurred at line: [198] in the jsp file: [/process.jsp]
+out cannot be resolved
+195:               
+196:               String[] st3= st.nextToken().toString().split(":");
+197:               
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+
+
+An error occurred at line: [199] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+196:               String[] st3= st.nextToken().toString().split(":");
+197:               
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+202:             <td>
+
+
+An error occurred at line: [201] in the jsp file: [/process.jsp]
+out cannot be resolved
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+
+
+An error occurred at line: [201] in the jsp file: [/process.jsp]
+out cannot be resolved
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+
+
+An error occurred at line: [201] in the jsp file: [/process.jsp]
+out cannot be resolved
+198:             %>
+199:               <% if (i==4)
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+
+
+An error occurred at line: [203] in the jsp file: [/process.jsp]
+out cannot be resolved
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+205:               <% 
+206:             break;
+
+
+An error occurred at line: [203] in the jsp file: [/process.jsp]
+out cannot be resolved
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+205:               <% 
+206:             break;
+
+
+An error occurred at line: [203] in the jsp file: [/process.jsp]
+out cannot be resolved
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+205:               <% 
+206:             break;
+
+
+An error occurred at line: [203] in the jsp file: [/process.jsp]
+out cannot be resolved
+200:               { 
+201:                 %>
+202:             <td>
+203:               <%=st3[1]%>
+204:             </td>
+205:               <% 
+206:             break;
+
+
+An error occurred at line: [207] in the jsp file: [/process.jsp]
+out cannot be resolved
+204:             </td>
+205:               <% 
+206:             break;
+207:           } %>
+208:             <%
+209:             }
+210:             %>
+
+
+An error occurred at line: [207] in the jsp file: [/process.jsp]
+out cannot be resolved
+204:             </td>
+205:               <% 
+206:             break;
+207:           } %>
+208:             <%
+209:             }
+210:             %>
+
+
+An error occurred at line: [219] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+216: 
+217:             while (st.hasMoreTokens())
+218:             {
+219:               i++;
+220:               
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+
+
+An error occurred at line: [221] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+218:             {
+219:               i++;
+220:               
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+223:             %>
+224:               <% if (i==6)
+
+
+An error occurred at line: [221] in the jsp file: [/process.jsp]
+st cannot be resolved
+218:             {
+219:               i++;
+220:               
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+223:             %>
+224:               <% if (i==6)
+
+
+An error occurred at line: [223] in the jsp file: [/process.jsp]
+out cannot be resolved
+220:               
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+
+
+An error occurred at line: [223] in the jsp file: [/process.jsp]
+out cannot be resolved
+220:               
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+
+
+An error occurred at line: [224] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+221:               String[] st3= st.nextToken().toString().split(":");
+222:               
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+227:             <td>
+
+
+An error occurred at line: [226] in the jsp file: [/process.jsp]
+out cannot be resolved
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+
+
+An error occurred at line: [226] in the jsp file: [/process.jsp]
+out cannot be resolved
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+
+
+An error occurred at line: [226] in the jsp file: [/process.jsp]
+out cannot be resolved
+223:             %>
+224:               <% if (i==6)
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+
+
+An error occurred at line: [228] in the jsp file: [/process.jsp]
+out cannot be resolved
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+230:               <% 
+231:             break;
+
+
+An error occurred at line: [228] in the jsp file: [/process.jsp]
+out cannot be resolved
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+230:               <% 
+231:             break;
+
+
+An error occurred at line: [228] in the jsp file: [/process.jsp]
+out cannot be resolved
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+230:               <% 
+231:             break;
+
+
+An error occurred at line: [228] in the jsp file: [/process.jsp]
+out cannot be resolved
+225:               { 
+226:                 %>
+227:             <td>
+228:               <%=st3[1]%>
+229:             </td>
+230:               <% 
+231:             break;
+
+
+An error occurred at line: [232] in the jsp file: [/process.jsp]
+out cannot be resolved
+229:             </td>
+230:               <% 
+231:             break;
+232:           } %>
+233:             <%
+234:             }
+235:             %>
+
+
+An error occurred at line: [232] in the jsp file: [/process.jsp]
+out cannot be resolved
+229:             </td>
+230:               <% 
+231:             break;
+232:           } %>
+233:             <%
+234:             }
+235:             %>
+
+
+An error occurred at line: [244] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+241: 
+242:            while (st.hasMoreTokens())
+243:            {
+244:              i++;
+245:              
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+
+
+An error occurred at line: [246] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+243:            {
+244:              i++;
+245:              
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+248:            %>
+249:              <% if (i==7)
+
+
+An error occurred at line: [246] in the jsp file: [/process.jsp]
+st cannot be resolved
+243:            {
+244:              i++;
+245:              
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+248:            %>
+249:              <% if (i==7)
+
+
+An error occurred at line: [248] in the jsp file: [/process.jsp]
+out cannot be resolved
+245:              
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+
+
+An error occurred at line: [248] in the jsp file: [/process.jsp]
+out cannot be resolved
+245:              
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+
+
+An error occurred at line: [249] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+246:              String[] st3= st.nextToken().toString().split(":");
+247:              
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+252:            <td>
+
+
+An error occurred at line: [251] in the jsp file: [/process.jsp]
+out cannot be resolved
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+
+
+An error occurred at line: [251] in the jsp file: [/process.jsp]
+out cannot be resolved
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+
+
+An error occurred at line: [251] in the jsp file: [/process.jsp]
+out cannot be resolved
+248:            %>
+249:              <% if (i==7)
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+
+
+An error occurred at line: [253] in the jsp file: [/process.jsp]
+out cannot be resolved
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+255:              <% 
+256:            break;
+
+
+An error occurred at line: [253] in the jsp file: [/process.jsp]
+out cannot be resolved
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+255:              <% 
+256:            break;
+
+
+An error occurred at line: [253] in the jsp file: [/process.jsp]
+out cannot be resolved
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+255:              <% 
+256:            break;
+
+
+An error occurred at line: [253] in the jsp file: [/process.jsp]
+out cannot be resolved
+250:              { 
+251:                %>
+252:            <td>
+253:              <%=st3[1]%>
+254:            </td>
+255:              <% 
+256:            break;
+
+
+An error occurred at line: [257] in the jsp file: [/process.jsp]
+out cannot be resolved
+254:            </td>
+255:              <% 
+256:            break;
+257:          } %>
+258:            <%
+259:            }
+260:            %>
+
+
+An error occurred at line: [257] in the jsp file: [/process.jsp]
+out cannot be resolved
+254:            </td>
+255:              <% 
+256:            break;
+257:          } %>
+258:            <%
+259:            }
+260:            %>
+
+
+An error occurred at line: [270] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+267: 
+268:           while (st.hasMoreTokens())
+269:           {
+270:             i++;
+271:             
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+
+
+An error occurred at line: [272] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+269:           {
+270:             i++;
+271:             
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+274:           %>
+275:             <% if (i==8)
+
+
+An error occurred at line: [272] in the jsp file: [/process.jsp]
+st cannot be resolved
+269:           {
+270:             i++;
+271:             
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+274:           %>
+275:             <% if (i==8)
+
+
+An error occurred at line: [274] in the jsp file: [/process.jsp]
+out cannot be resolved
+271:             
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+
+
+An error occurred at line: [274] in the jsp file: [/process.jsp]
+out cannot be resolved
+271:             
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+
+
+An error occurred at line: [275] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+272:             String[] st3= st.nextToken().toString().split(":");
+273:             
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+278:           <td>
+
+
+An error occurred at line: [277] in the jsp file: [/process.jsp]
+out cannot be resolved
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+
+
+An error occurred at line: [277] in the jsp file: [/process.jsp]
+out cannot be resolved
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+
+
+An error occurred at line: [277] in the jsp file: [/process.jsp]
+out cannot be resolved
+274:           %>
+275:             <% if (i==8)
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+
+
+An error occurred at line: [279] in the jsp file: [/process.jsp]
+out cannot be resolved
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+281:             <% 
+282:           break;
+
+
+An error occurred at line: [279] in the jsp file: [/process.jsp]
+out cannot be resolved
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+281:             <% 
+282:           break;
+
+
+An error occurred at line: [279] in the jsp file: [/process.jsp]
+out cannot be resolved
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+281:             <% 
+282:           break;
+
+
+An error occurred at line: [279] in the jsp file: [/process.jsp]
+out cannot be resolved
+276:             { 
+277:               %>
+278:           <td>
+279:             <%=st3[1]%>
+280:           </td>
+281:             <% 
+282:           break;
+
+
+An error occurred at line: [283] in the jsp file: [/process.jsp]
+out cannot be resolved
+280:           </td>
+281:             <% 
+282:           break;
+283:         } %>
+284:           <%
+285:           }
+286:           %>
+
+
+An error occurred at line: [283] in the jsp file: [/process.jsp]
+out cannot be resolved
+280:           </td>
+281:             <% 
+282:           break;
+283:         } %>
+284:           <%
+285:           }
+286:           %>
+
+
+An error occurred at line: [295] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+292: 
+293:          while (st.hasMoreTokens())
+294:          {
+295:            i++;
+296:            
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+
+
+An error occurred at line: [297] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+294:          {
+295:            i++;
+296:            
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+299:          %>
+300:            <% if (i==2)
+
+
+An error occurred at line: [297] in the jsp file: [/process.jsp]
+st cannot be resolved
+294:          {
+295:            i++;
+296:            
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+299:          %>
+300:            <% if (i==2)
+
+
+An error occurred at line: [299] in the jsp file: [/process.jsp]
+out cannot be resolved
+296:            
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+
+
+An error occurred at line: [299] in the jsp file: [/process.jsp]
+out cannot be resolved
+296:            
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+
+
+An error occurred at line: [300] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+297:            String[] st3= st.nextToken().toString().split(":");
+298:            
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+303:          <td>
+
+
+An error occurred at line: [302] in the jsp file: [/process.jsp]
+out cannot be resolved
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+
+
+An error occurred at line: [302] in the jsp file: [/process.jsp]
+out cannot be resolved
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+
+
+An error occurred at line: [302] in the jsp file: [/process.jsp]
+out cannot be resolved
+299:          %>
+300:            <% if (i==2)
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+
+
+An error occurred at line: [304] in the jsp file: [/process.jsp]
+out cannot be resolved
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+306:            <% 
+307:          break;
+
+
+An error occurred at line: [304] in the jsp file: [/process.jsp]
+out cannot be resolved
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+306:            <% 
+307:          break;
+
+
+An error occurred at line: [304] in the jsp file: [/process.jsp]
+out cannot be resolved
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+306:            <% 
+307:          break;
+
+
+An error occurred at line: [304] in the jsp file: [/process.jsp]
+out cannot be resolved
+301:            { 
+302:              %>
+303:          <td>
+304:            <%=st3[1]%>
+305:          </td>
+306:            <% 
+307:          break;
+
+
+An error occurred at line: [308] in the jsp file: [/process.jsp]
+out cannot be resolved
+305:          </td>
+306:            <% 
+307:          break;
+308:        } %>
+309:          <%
+310:          }
+311:          %>
+
+
+An error occurred at line: [308] in the jsp file: [/process.jsp]
+out cannot be resolved
+305:          </td>
+306:            <% 
+307:          break;
+308:        } %>
+309:          <%
+310:          }
+311:          %>
+
+
+An error occurred at line: [321] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+318: 
+319:         while (st.hasMoreTokens())
+320:         {
+321:           i++;
+322:           
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+
+
+An error occurred at line: [323] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+320:         {
+321:           i++;
+322:           
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+325:         %>
+326:           <% if (i==1)
+
+
+An error occurred at line: [323] in the jsp file: [/process.jsp]
+st cannot be resolved
+320:         {
+321:           i++;
+322:           
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+325:         %>
+326:           <% if (i==1)
+
+
+An error occurred at line: [325] in the jsp file: [/process.jsp]
+out cannot be resolved
+322:           
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+
+
+An error occurred at line: [325] in the jsp file: [/process.jsp]
+out cannot be resolved
+322:           
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+
+
+An error occurred at line: [326] in the jsp file: [/process.jsp]
+i cannot be resolved to a variable
+323:           String[] st3= st.nextToken().toString().split(":");
+324:           
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+329:         <td>
+
+
+An error occurred at line: [328] in the jsp file: [/process.jsp]
+out cannot be resolved
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+
+
+An error occurred at line: [328] in the jsp file: [/process.jsp]
+out cannot be resolved
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+
+
+An error occurred at line: [328] in the jsp file: [/process.jsp]
+out cannot be resolved
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+
+
+An error occurred at line: [328] in the jsp file: [/process.jsp]
+out cannot be resolved
+325:         %>
+326:           <% if (i==1)
+327:           { 
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+
+
+An error occurred at line: [331] in the jsp file: [/process.jsp]
+out cannot be resolved
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+332:         </td>
+333:           <% 
+334:         break;
+
+
+An error occurred at line: [331] in the jsp file: [/process.jsp]
+out cannot be resolved
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+332:         </td>
+333:           <% 
+334:         break;
+
+
+An error occurred at line: [331] in the jsp file: [/process.jsp]
+out cannot be resolved
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+332:         </td>
+333:           <% 
+334:         break;
+
+
+An error occurred at line: [331] in the jsp file: [/process.jsp]
+out cannot be resolved
+328:             %>
+329:         <td>
+330: 
+331:           <%= "\"https:" + st3[3]%>
+332:         </td>
+333:           <% 
+334:         break;
+
+
+An error occurred at line: [335] in the jsp file: [/process.jsp]
+out cannot be resolved
+332:         </td>
+333:           <% 
+334:         break;
+335:       } %>
+336:         <%
+337:         }
+338:         %>
+
+
+An error occurred at line: [335] in the jsp file: [/process.jsp]
+out cannot be resolved
+332:         </td>
+333:           <% 
+334:         break;
+335:       } %>
+336:         <%
+337:         }
+338:         %>
+
+
+An error occurred at line: [604] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [621] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+01-Aug-2022 16:19:42.152 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [An exception occurred processing [/process.jsp] at line [48]
+
+45:         <c:set var = "model" value = "${modelnew}"/>
+46:         
+47:         <c:import var ="result" url="http://127.0.0.1:5000/${cc}/${model}"  />
+48:         <% String json = (String)pageContext.getAttribute("result");
+49:         String json2 = json.replace("}", "");
+50:         StringTokenizer st = new StringTokenizer(json2,",");
+51:         %>
+
+
+Stacktrace:] with root cause
+	java.io.IOException: Server returned HTTP response code: 500 for URL: http://127.0.0.1:5000/ram%20is%20dead/Model3
+		at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1997)
+		at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+		at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireReader(ImportSupport.java:349)
+		at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:251)
+		at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:168)
+		at org.apache.jsp.process_jsp._jspx_meth_c_005fimport_005f0(process_jsp.java:642)
+		at org.apache.jsp.process_jsp._jspService(process_jsp.java:191)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)

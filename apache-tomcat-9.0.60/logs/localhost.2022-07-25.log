@@ -1,0 +1,847 @@
+25-Jul-2022 12:14:55.774 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-Jul-2022 12:14:55.774 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-Jul-2022 12:14:55.777 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@24bdb479')
+25-Jul-2022 12:55:08.530 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [An exception occurred processing [/process.jsp] at line [47]
+
+44:         <c:set var = "model" value = "${modelnew}"/>
+45:         
+46:         <c:import var ="result" url="http://127.0.0.1:5000/${cc}/${model}"  />
+47:         <% String json = (String)pageContext.getAttribute("result");
+48:         String json2 = json.replace("}", "");
+49:         StringTokenizer st = new StringTokenizer(json2,",");
+50:         %>
+
+
+Stacktrace:] with root cause
+	java.io.IOException: Server returned HTTP response code: 500 for URL: http://127.0.0.1:5000/ram%20is%20dead/Model3
+		at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1997)
+		at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+		at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireReader(ImportSupport.java:349)
+		at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:251)
+		at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:168)
+		at org.apache.jsp.process_jsp._jspx_meth_c_005fimport_005f0(process_jsp.java:617)
+		at org.apache.jsp.process_jsp._jspService(process_jsp.java:190)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-Jul-2022 13:24:48.962 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [119] in the jsp file: [/process.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+116:             <td>
+117:               <%=st3[1]%>
+118:               <select name="" id="id2">
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+Syntax error, insert ">" to complete ReferenceType1
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+Syntax error, insert "super ( ) ;" to complete BlockStatements
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+option cannot be resolved to a type
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+Constructor call must be the first statement in a constructor
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+Real cannot be resolved to a variable
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+Syntax error on token "/", delete this token
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+option cannot be resolved to a variable
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [146] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+143:             {
+144:               i++;
+145:               
+146:               String[] st3= st.nextToken().toString().split(":");
+147:               
+148:             %>
+149:               <% if (i==4)
+
+
+An error occurred at line: [171] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+168:             {
+169:               i++;
+170:               
+171:               String[] st3= st.nextToken().toString().split(":");
+172:               
+173:             %>
+174:               <% if (i==6)
+
+
+An error occurred at line: [196] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+193:            {
+194:              i++;
+195:              
+196:              String[] st3= st.nextToken().toString().split(":");
+197:              
+198:            %>
+199:              <% if (i==7)
+
+
+An error occurred at line: [222] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+219:           {
+220:             i++;
+221:             
+222:             String[] st3= st.nextToken().toString().split(":");
+223:             
+224:           %>
+225:             <% if (i==8)
+
+
+An error occurred at line: [247] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+244:          {
+245:            i++;
+246:            
+247:            String[] st3= st.nextToken().toString().split(":");
+248:            
+249:          %>
+250:            <% if (i==2)
+
+
+An error occurred at line: [273] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+270:         {
+271:           i++;
+272:           
+273:           String[] st3= st.nextToken().toString().split(":");
+274:           
+275:         %>
+276:           <% if (i==1)
+
+
+An error occurred at line: [538] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [119] in the jsp file: [/process.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+116:             <td>
+117:               <%=st3[1]%>
+118:               <select name="" id="id2">
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+Syntax error, insert ">" to complete ReferenceType1
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+Syntax error, insert "super ( ) ;" to complete BlockStatements
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+option cannot be resolved to a type
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+Constructor call must be the first statement in a constructor
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+Real cannot be resolved to a variable
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+Syntax error on token "/", delete this token
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [122] in the jsp file: [/process.jsp]
+option cannot be resolved to a variable
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 <option value="Real">Real</option>
+123:                 %>
+124:                 
+125:                 <option value="Fake">Fake</option>
+
+
+An error occurred at line: [146] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+143:             {
+144:               i++;
+145:               
+146:               String[] st3= st.nextToken().toString().split(":");
+147:               
+148:             %>
+149:               <% if (i==4)
+
+
+An error occurred at line: [171] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+168:             {
+169:               i++;
+170:               
+171:               String[] st3= st.nextToken().toString().split(":");
+172:               
+173:             %>
+174:               <% if (i==6)
+
+
+An error occurred at line: [196] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+193:            {
+194:              i++;
+195:              
+196:              String[] st3= st.nextToken().toString().split(":");
+197:              
+198:            %>
+199:              <% if (i==7)
+
+
+An error occurred at line: [222] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+219:           {
+220:             i++;
+221:             
+222:             String[] st3= st.nextToken().toString().split(":");
+223:             
+224:           %>
+225:             <% if (i==8)
+
+
+An error occurred at line: [247] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+244:          {
+245:            i++;
+246:            
+247:            String[] st3= st.nextToken().toString().split(":");
+248:            
+249:          %>
+250:            <% if (i==2)
+
+
+An error occurred at line: [273] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+270:         {
+271:           i++;
+272:           
+273:           String[] st3= st.nextToken().toString().split(":");
+274:           
+275:         %>
+276:           <% if (i==1)
+
+
+An error occurred at line: [538] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-Jul-2022 13:27:11.815 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [119] in the jsp file: [/process.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+116:             <td>
+117:               <%=st3[1]%>
+118:               <select name="" id="id2">
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 %>
+
+
+An error occurred at line: [147] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+144:             {
+145:               i++;
+146:               
+147:               String[] st3= st.nextToken().toString().split(":");
+148:               
+149:             %>
+150:               <% if (i==4)
+
+
+An error occurred at line: [172] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+169:             {
+170:               i++;
+171:               
+172:               String[] st3= st.nextToken().toString().split(":");
+173:               
+174:             %>
+175:               <% if (i==6)
+
+
+An error occurred at line: [197] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+194:            {
+195:              i++;
+196:              
+197:              String[] st3= st.nextToken().toString().split(":");
+198:              
+199:            %>
+200:              <% if (i==7)
+
+
+An error occurred at line: [223] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+220:           {
+221:             i++;
+222:             
+223:             String[] st3= st.nextToken().toString().split(":");
+224:             
+225:           %>
+226:             <% if (i==8)
+
+
+An error occurred at line: [248] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+245:          {
+246:            i++;
+247:            
+248:            String[] st3= st.nextToken().toString().split(":");
+249:            
+250:          %>
+251:            <% if (i==2)
+
+
+An error occurred at line: [274] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+271:         {
+272:           i++;
+273:           
+274:           String[] st3= st.nextToken().toString().split(":");
+275:           
+276:         %>
+277:           <% if (i==1)
+
+
+An error occurred at line: [539] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [119] in the jsp file: [/process.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+116:             <td>
+117:               <%=st3[1]%>
+118:               <select name="" id="id2">
+119:                <% String value=st3[1] %>
+120:                 <% if (value=="Real")
+121:               { 
+122:                 %>
+
+
+An error occurred at line: [147] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+144:             {
+145:               i++;
+146:               
+147:               String[] st3= st.nextToken().toString().split(":");
+148:               
+149:             %>
+150:               <% if (i==4)
+
+
+An error occurred at line: [172] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+169:             {
+170:               i++;
+171:               
+172:               String[] st3= st.nextToken().toString().split(":");
+173:               
+174:             %>
+175:               <% if (i==6)
+
+
+An error occurred at line: [197] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+194:            {
+195:              i++;
+196:              
+197:              String[] st3= st.nextToken().toString().split(":");
+198:              
+199:            %>
+200:              <% if (i==7)
+
+
+An error occurred at line: [223] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+220:           {
+221:             i++;
+222:             
+223:             String[] st3= st.nextToken().toString().split(":");
+224:             
+225:           %>
+226:             <% if (i==8)
+
+
+An error occurred at line: [248] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+245:          {
+246:            i++;
+247:            
+248:            String[] st3= st.nextToken().toString().split(":");
+249:            
+250:          %>
+251:            <% if (i==2)
+
+
+An error occurred at line: [274] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+271:         {
+272:           i++;
+273:           
+274:           String[] st3= st.nextToken().toString().split(":");
+275:           
+276:         %>
+277:           <% if (i==1)
+
+
+An error occurred at line: [539] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-Jul-2022 13:32:02.486 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [147] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+144:             {
+145:               i++;
+146:               
+147:               String[] st3= st.nextToken().toString().split(":");
+148:               
+149:             %>
+150:               <% if (i==4)
+
+
+An error occurred at line: [172] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+169:             {
+170:               i++;
+171:               
+172:               String[] st3= st.nextToken().toString().split(":");
+173:               
+174:             %>
+175:               <% if (i==6)
+
+
+An error occurred at line: [197] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+194:            {
+195:              i++;
+196:              
+197:              String[] st3= st.nextToken().toString().split(":");
+198:              
+199:            %>
+200:              <% if (i==7)
+
+
+An error occurred at line: [223] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+220:           {
+221:             i++;
+222:             
+223:             String[] st3= st.nextToken().toString().split(":");
+224:             
+225:           %>
+226:             <% if (i==8)
+
+
+An error occurred at line: [248] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+245:          {
+246:            i++;
+247:            
+248:            String[] st3= st.nextToken().toString().split(":");
+249:            
+250:          %>
+251:            <% if (i==2)
+
+
+An error occurred at line: [274] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+271:         {
+272:           i++;
+273:           
+274:           String[] st3= st.nextToken().toString().split(":");
+275:           
+276:         %>
+277:           <% if (i==1)
+
+
+An error occurred at line: [539] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [147] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+144:             {
+145:               i++;
+146:               
+147:               String[] st3= st.nextToken().toString().split(":");
+148:               
+149:             %>
+150:               <% if (i==4)
+
+
+An error occurred at line: [172] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+169:             {
+170:               i++;
+171:               
+172:               String[] st3= st.nextToken().toString().split(":");
+173:               
+174:             %>
+175:               <% if (i==6)
+
+
+An error occurred at line: [197] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+194:            {
+195:              i++;
+196:              
+197:              String[] st3= st.nextToken().toString().split(":");
+198:              
+199:            %>
+200:              <% if (i==7)
+
+
+An error occurred at line: [223] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+220:           {
+221:             i++;
+222:             
+223:             String[] st3= st.nextToken().toString().split(":");
+224:             
+225:           %>
+226:             <% if (i==8)
+
+
+An error occurred at line: [248] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+245:          {
+246:            i++;
+247:            
+248:            String[] st3= st.nextToken().toString().split(":");
+249:            
+250:          %>
+251:            <% if (i==2)
+
+
+An error occurred at line: [274] in the jsp file: [/process.jsp]
+Duplicate local variable st3
+271:         {
+272:           i++;
+273:           
+274:           String[] st3= st.nextToken().toString().split(":");
+275:           
+276:         %>
+277:           <% if (i==1)
+
+
+An error occurred at line: [539] in the generated java file: [C:\Users\hp\Downloads\apache-tomcat-9.0.60\apache-tomcat-9.0.60\work\Catalina\localhost\ROOT\org\apache\jsp\process_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-Jul-2022 14:14:48.181 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [An exception occurred processing [/process.jsp] at line [47]
+
+44:         <c:set var = "model" value = "${modelnew}"/>
+45:         
+46:         <c:import var ="result" url="http://127.0.0.1:5000/${cc}/${model}"  />
+47:         <% String json = (String)pageContext.getAttribute("result");
+48:         String json2 = json.replace("}", "");
+49:         StringTokenizer st = new StringTokenizer(json2,",");
+50:         %>
+
+
+Stacktrace:] with root cause
+	java.net.ConnectException: Connection refused: connect
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at java.base/java.net.Socket.connect(Socket.java:583)
+		at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+		at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+		at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+		at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246)
+		at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351)
+		at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373)
+		at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+		at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+		at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+		at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+		at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+		at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+		at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireReader(ImportSupport.java:349)
+		at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:251)
+		at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:168)
+		at org.apache.jsp.process_jsp._jspx_meth_c_005fimport_005f0(process_jsp.java:630)
+		at org.apache.jsp.process_jsp._jspService(process_jsp.java:190)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-Jul-2022 21:02:57.680 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-Jul-2022 21:02:57.680 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-Jul-2022 21:02:57.688 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@67389cb8')

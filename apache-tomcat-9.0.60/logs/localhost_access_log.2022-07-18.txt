@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [18/Jul/2022:13:06:00 +0530] "GET / HTTP/1.1" 200 10836
+0:0:0:0:0:0:0:1 - - [18/Jul/2022:13:06:00 +0530] "GET /styles.css HTTP/1.1" 200 880
+0:0:0:0:0:0:0:1 - - [18/Jul/2022:13:06:01 +0530] "GET /CDAC-LOGO.png HTTP/1.1" 200 42471
+0:0:0:0:0:0:0:1 - - [18/Jul/2022:13:06:01 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [18/Jul/2022:13:10:50 +0530] "GET /process.jsp?sample=neha%20is%20born&choose=Model1&run=1 HTTP/1.1" 500 4450
+0:0:0:0:0:0:0:1 - - [18/Jul/2022:13:16:18 +0530] "GET / HTTP/1.1" 200 10836
+0:0:0:0:0:0:0:1 - - [18/Jul/2022:13:16:45 +0530] "GET /process.jsp?sample=ram%20is%20dead&choose=Model1&run=1 HTTP/1.1" 200 2771
+0:0:0:0:0:0:0:1 - - [18/Jul/2022:13:19:01 +0530] "GET /process.jsp?sample=ram%20is%20dead&choose=Model1&run=1 HTTP/1.1" 200 2771
